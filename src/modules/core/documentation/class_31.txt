@@ -1,0 +1,33 @@
+1. built in library will be imported top.
+2. custom modules will be under.
+3. direct import will be most under in import list.
+
+---flow
+
+1. create modules folder in src.
+2. create core folder in modules.
+3. create entity folders in modules.
+
+core folder structures:
+1. it will have the app.component.js file in it.
+
+Entity folder structures:
+1. it will have a folder named components.
+2. the entity folder will have 3 files in it. routes, schema & index.js.mosharaf/feature/admin-login.
+
+---
+
+* When we import a folder then React imports from the index.js file in that folder.
+
+* we will not import nested way. we will import from folder.
+
+---
+1. fomik to handle form.
+2. yup to handle schema.
+
+formik and yup works together.
+
+-----
+
+1. আইডির সাথে কাজ করে লেভেল এর HTML for.
+2. নেম এর সাথে কাজ করে ফরমিক এর ইনিশিয়াল ভেলু।
