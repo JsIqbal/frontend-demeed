@@ -29,5 +29,7 @@ formik and yup works together.
 
 -----
 
+re-using components will be in the core folder.
+
 1. আইডির সাথে কাজ করে লেভেল এর HTML for.
 2. নেম এর সাথে কাজ করে ফরমিক এর ইনিশিয়াল ভেলু।
