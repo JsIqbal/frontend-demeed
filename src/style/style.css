@@ -1,0 +1,105 @@
+body {
+    /* background: #F0F2F5; */
+    background: #fff;
+}
+
+th {
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.permissions {
+    padding-bottom: 30px;
+}
+
+.permissions .table td,
+.permissions .table th {
+    text-align: center;
+}
+
+.permissions .table thead {
+    background: #00000024;
+}
+
+.permissions .table thead th {
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+}
+
+.permissions .table thead th i {
+    margin-left: 7px;
+}
+
+.permissions .table td {
+    font-size: 16px;
+}
+
+.permissions .table td button {
+    border: none;
+    outline: none;
+    color: #f96f00;
+    background: transparent;
+}
+
+.permissions .table td button:hover {
+    color: #df9254;
+}
+
+.permissions .table td a {
+    text-decoration: none;
+    color: #f96f00;
+}
+
+.permissions .table td a:hover {
+    color: #df9254;
+}
+
+.permissions .pagination {
+    margin-top: 15px;
+}
+
+.permissions .pagination .page-item .page-link {
+    padding: 3px 10px;
+    color: #000;
+}
+
+.permissions label {
+    margin-left: 20px;
+}
+
+.permissions label .count {
+    width: 40px;
+    height: 31px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.permission {
+    background: #fff;
+    min-height: 100vh;
+}
+
+.modal {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.modal .modal-dialog {
+    max-width: 800px;
+    margin-top: 100px;
+}
+
+.modal .modal-dialog .modal-content {
+    padding: 15px 20px;
+    position: relative;
+}
+
+.modal .modal-dialog .modal-content .btn-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+/*# sourceMappingURL=style.css.map */
